@@ -1,4 +1,7 @@
 <script lang="ts">
+    export const prerender = true;
+    export const ssr = true;
+    
     import { base } from '$app/paths';
     import { onMount } from 'svelte';
     import DebugThing from '$lib/components/DebugThing.svelte';
