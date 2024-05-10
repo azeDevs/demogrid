@@ -1,7 +1,4 @@
 <script lang="ts">
-    export const prerender = true;
-    export const ssr = true;
-
     import { base } from '$app/paths';
     let styleTest = "box-shadow: 0 0 0 0.3px rgba(255, 240, 0, 1), inset 0 0 0 0.3px rgba(255, 240, 0, 1);";
 
