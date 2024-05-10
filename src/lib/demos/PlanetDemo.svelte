@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     let styleTest = "box-shadow: 0 0 0 0.3px rgba(255, 240, 0, 1), inset 0 0 0 0.3px rgba(255, 240, 0, 1);";
 
     // let rangeSliderX: RangeSlider;

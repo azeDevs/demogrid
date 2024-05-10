@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     import { onMount } from 'svelte';
     import DebugThing from '$lib/components/DebugThing.svelte';
     import PlanetDemo from '$lib/demos/PlanetDemo.svelte'
